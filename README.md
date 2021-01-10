@@ -7,16 +7,17 @@ Weakly supervised street text detection , localisation and segmentation in Pytor
 
    ```pip install -r requirements.txt```
 
-2. Download Chars74k dataset () and place it in the root directory
-3.
-4. Train a charecter recognition network by running
+2. Download Chars74k dataset <a href="http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/">Chars74k dataset</a> and place it in the root directory
+3. Place images of unlabelled street view text in the folder called Images. I used the <a href="http://vision.ucsd.edu/~kai/svt/">UCSD SVT</a> dataset and a select of images from <a href="http://www.iapr-tc11.org/mediawiki/index.php/NEOCR:_Natural_Environment_OCR_Dataset">NEOCR</a> dataset. [I will upload my split soon and share it]
+4. Place various without any text in the folder called Background. Recommeded a combination of indoor/outdoor scenes without text [I will upload my split soon and share it]
+5. Train a charecter recognition network by running
 
    ```python3 train_charmodel.py```
 
-5. Label the images using the following command
+6. Label the images using the following command
 
    ```python3 label_images.py```
 
-6. Train a localisation , detection and segmentation network by running the command
+7. Train a localisation , detection and segmentation network by running the command
 
    ```python3 train_localizationmodel.py```
