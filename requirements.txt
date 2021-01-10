@@ -1,0 +1,1 @@
+torch==1.6pillow==7.2.0numpy==1.18.5matplotlibopencv-python==4.4.0.44torchvision==0.5.0pyyaml==5.3.1
