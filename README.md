@@ -1,5 +1,5 @@
 # Weakly-Supervised-Street-Text-Detection
-Weakly supervised street text detection , localisation and segmentation in Pytorch. This is not the most optimal way of doing the same. I am working on optimizing accuracy and speed.
+Weakly supervised street text detection, localisation and segmentation in Pytorch. This is not the most optimal way of doing the same. I am working on optimizing accuracy and speed.
 
 Some cherry picked examples of localized text
 
@@ -11,7 +11,7 @@ Some cherry picked examples of localized text
 </div>
 
 ## Working
-<p text-align="justify">The Weakly supervised algorithm is trained by first training a character agnostic text detection network by training it with images of various charecters and non-textual. Further , this network is used to label unlabelled images producing images with corresponding segmented masks. These unlabelled images are used to train a network to train a text segmentation network. From the segmented masks , the bounding boxes are derived.</p>
+<p text-align="justify">The Weakly supervised algorithm is trained by first training a character agnostic text detection network by training it with images of various charecters and non-textual. Further, this network is used to label unlabelled images producing images with corresponding segmented masks. These unlabelled images are used to train a network to train a text segmentation network. From the segmented masks, the bounding boxes are derived.</p>
 
 ## Instructions
 
