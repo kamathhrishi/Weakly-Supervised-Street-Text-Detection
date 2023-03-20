@@ -135,7 +135,7 @@ def main():
 
     args = Arguments()
 
-    net = models.alexnet(pretrained=True)
+    net = models.alexnet()
     net.classifier[6] = nn.Linear(4096, 2)
     net = net.double()
 
