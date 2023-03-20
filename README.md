@@ -1,5 +1,6 @@
 # Weakly-Supervised-Street-Text-Detection
 Weakly supervised street text detection, localisation and segmentation in Pytorch. This is not the most optimal way of doing the same. I am working on optimizing accuracy and speed.
+[i am yet to release latest code with improved performance with resnet18 and inference optimization]
 
 Some cherry picked examples of localized text
 
